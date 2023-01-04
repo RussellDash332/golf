@@ -1,0 +1,1 @@
+top_k_channels=lambda k,f:[r:=read_csv(f)[1:],d:={},[d.update({t:d.get(t,0)+eval(v+'j+'+l)})for _,t,v,l in r],l:=sorted((-round(d[t].imag/((s:=d[t].real)-(s<=0)),1),t)for t in d),[(b,-a)for a,b in l if a<=l[:k][-1][0]]][4]

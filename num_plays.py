@@ -1,0 +1,1 @@
+num_plays=f=lambda n,b:~-(n in b[2])*-(n>=b[0]or n in b[1]and f(b[1][n],b)or sum(f(n+i+1,b)for i in range(6)))

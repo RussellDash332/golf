@@ -1,0 +1,1 @@
+num_subscribers=lambda f,*t:len({x for*e,x,_,_ in read_csv(f)if[*t]==e})

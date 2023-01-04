@@ -1,0 +1,1 @@
+get_antiques=lambda f,n:min([(int(y),-float(p),float(p))for p,*_,y,z in read_csv(f)if z==str(n)]or[()])[::2]

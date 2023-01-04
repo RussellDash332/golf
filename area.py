@@ -1,0 +1,1 @@
+s,r=sum,(0,1,2);calculate_areas=lambda w,h:tuple(s([s(w[k::3])for k in r][j]*[s(h[k::3])for k in r][(i-j)%3]for j in r)for i in r)

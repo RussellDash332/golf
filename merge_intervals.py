@@ -1,0 +1,1 @@
+merge_intervals=lambda*i:[r:=[],[[r.pop(),r.append(k)]if r and(k:=merge(r[-1],j))else r.append(j)for j in sorted(i)]][0]
