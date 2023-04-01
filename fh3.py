@@ -1,0 +1,1 @@
+while 1:n=int(input());c=0;d=100;exec('c+=n//d;n%=d;d/=2+(d%9>2)/2;'*7);print(int(c))

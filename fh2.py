@@ -1,0 +1,1 @@
+b=open(0).read();print('OX'['XXX'in[b[::4],b[1::4],b[2::4],b[::5],b[2::3]]+b.split()])
