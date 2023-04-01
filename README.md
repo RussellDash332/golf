@@ -1,6 +1,6 @@
 # golf
 
-Dumping place for golfed codes I did. Sometimes I need eye therapy so.
+Dumping place for codes I golfed. Sometimes I need eye therapy so.
 
 ## WC for nerds
 
