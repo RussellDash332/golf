@@ -1,0 +1,1 @@
+f=flatten_dictionary=lambda d,s:[r:={},u:=r.update,{type(d[k])==dict!=u({str(k)+s+x:y for x,y in f(d[k],s).items()})or u({str(k):d[k]})for k in[*d][::-1]}][0]
