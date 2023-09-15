@@ -1,0 +1,1 @@
+beside_frac=lambda f,p,q:quarter_turn_left(stack_frac(f,(t:=quarter_turn_right)(p),t(q)))

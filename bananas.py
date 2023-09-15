@@ -1,0 +1,1 @@
+bananas=lambda k:k**k*[k-1,1][k%2]-k+1

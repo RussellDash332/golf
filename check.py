@@ -1,0 +1,1 @@
+check=lambda b,k:b>(v:=k**k*[k-1,1][k%2]-k)and(b-v)%k**(k+1)==1
