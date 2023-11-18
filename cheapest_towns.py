@@ -1,0 +1,1 @@
+cheapest_towns=lambda r,k,f:[g:={},[g.update({a:g.get(a,[])+[int(c)]})for*_,a,b,c in read_csv(f)if b==r],s:=sorted((round(sum(g[t])/len(g[t]),-3),t)for t in g),[(b,a)for a,b in s if a<=s[:k][-1][0]]][3]

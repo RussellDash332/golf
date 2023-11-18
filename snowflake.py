@@ -1,0 +1,1 @@
+s=snowflake=lambda n:3if n<2else n%2*3+4*s(n-1)

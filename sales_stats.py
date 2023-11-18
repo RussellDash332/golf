@@ -1,0 +1,1 @@
+r=round;i=int;sales_stats=lambda f,t,s,e:(r(max(m),2),r(sum(m)/len(m),2),r(min(m),2))if(m:=[i(d)/i(c)if i(c)else 0for*_,a,b,c,d,_ in read_csv(f)[1:]if b==t!=i(s)<=i(a)<=i(e)])else(0,)*3

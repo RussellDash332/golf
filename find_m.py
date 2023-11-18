@@ -1,0 +1,1 @@
+i=is_prime;f=find_m=lambda n:([(p,n//p)for p in range(2,n)if n%p<i(p)*i(n//p)]or[f(n+1)])[0]

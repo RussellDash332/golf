@@ -1,0 +1,1 @@
+find_increase=lambda t,s,e,f:[g:={},[g.update({a:[*g.get(a,[]),int(b)]})for y,_,u,a,b in read_csv(f)[1:]if s<=int(y)<=e!=u==t],{a:max(g[a])-min(g[a])for a in g}][2]

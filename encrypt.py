@@ -1,0 +1,1 @@
+encrypt=lambda m,p:[x:=find_m(n:=len(m)),''.join((m+p*(x[0]*x[1]-n))[i::x[1]]for i in range(x[1]))][1]

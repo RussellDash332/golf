@@ -1,0 +1,1 @@
+town_height_ranks=lambda f,k:[g:={},[g.update({x[4]:g.get(x[4],[])+[int(x[2])]})for x in read_csv(f)[1:]],s:=sorted((-round(sum(g[t])/len(g[t]),1),t)for t in g),[(b,-a)for a,b in s if a<=s[:k][-1][0]]][3]
