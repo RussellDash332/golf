@@ -28,7 +28,7 @@ Dumping place for codes I golfed. Sometimes I need eye therapy so.
   72 num_subscribers.py
  366 product.py
  185 sales_stats.py
- 661 satellites.py
+ 630 satellites.py
   94 scales.py
  156 selectgroup.py
   47 snowflake.py
@@ -66,7 +66,7 @@ c69cfa3db2a09877e4f253e60ed176f4  num_plays.py
 d25c5dbdd5ae6772c0876ce21f65d27b  num_subscribers.py
 6d50c1f6285b1a4b7cf9121d5e5b8863  product.py
 bdbc2195e07dea58215fa6ca043a0290  sales_stats.py
-95277648b467d2c23157f1faeda75e91  satellites.py
+9f648cf06d560174df5dafb0835d441a  satellites.py
 270423ae9ad7fa179879816d196af7c4  scales.py
 5b8c6f7107c073f4d842de2f7997e77c  selectgroup.py
 c17ef64f60ca102c350b603ba3f1635b  snowflake.py
