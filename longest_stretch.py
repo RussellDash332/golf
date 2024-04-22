@@ -1,0 +1,1 @@
+longest_stretch=lambda s,k:-min([c:=0]+[c:=~-c*(e<k)for e in s])

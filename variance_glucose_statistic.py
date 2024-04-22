@@ -1,0 +1,1 @@
+variance_glucose_statistic=lambda f,k,y:[g:={},[g:={**g,x[1]:g.get(x[1],[])+[int(x[4])]}for x in read_csv(f)if x[0]==y],s:=sorted((-round(1/len(u:=g[t])*sum((x-sum(u)/len(u))**2for x in u),2),t)for t in g),[(int(b),-a)for a,b in s if a<=s[:k][-1][0]]][3]

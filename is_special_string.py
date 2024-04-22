@@ -1,0 +1,1 @@
+is_special_string=f=lambda s,p=0,c=0:f(s,p+1,c+ord(s[p]))|f(s,p+1,c-ord(s[p]))if p^len(s)else c==len(s)

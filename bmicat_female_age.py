@@ -1,0 +1,1 @@
+bmicat_female_age=lambda f,a:[(i,sum([w:=eval(v),i=='OHU'[(w<18.5)+(w<25)]+'W'*(w<30)][1]for _,b,g,v,*_ in read_csv(f)if'M'>g>b==str(a)))for i in('UW','HW','OW','O')]
