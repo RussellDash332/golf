@@ -1,0 +1,1 @@
+make_palindrome=lambda p,s='':[p+s for i in[s,*p]if p+(s:=i+s)==(p+s)[::-1]][0]

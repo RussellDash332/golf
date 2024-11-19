@@ -1,0 +1,1 @@
+total_votes=lambda y,s,f:sum(int(r[5])for r in read_csv(f)if r[1]==s>r[0]==str(y))

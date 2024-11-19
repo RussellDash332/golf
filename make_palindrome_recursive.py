@@ -1,0 +1,1 @@
+make_palindrome=f=lambda p:p[0]+f(p[1:])+p[0]if p!=p[::-1]else p
