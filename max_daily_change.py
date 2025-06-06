@@ -1,0 +1,1 @@
+max_daily_change=lambda f,m,y:round(max(0,*(abs(eval(c)-eval(o))for d,c,o,h,l in read_csv(f)[1:]if int(d[:2])==m and int(d[-4:])==y)),2)

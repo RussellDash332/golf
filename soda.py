@@ -1,0 +1,1 @@
+soda=f=lambda n,k,v=0:n and n+f((n+v)//k,k,(n+v)%k)

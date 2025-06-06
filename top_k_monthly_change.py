@@ -1,0 +1,1 @@
+top_k_monthly_change=lambda f,k:[g:={},[g.setdefault((int(d[-4:]),int(d[:2])),[]).append((eval(o),eval(c)))for d,c,h,l in sorted(read_csv(f)[1:])],[g.update({t:(abs(x:=round(v[-1][1]-v[0][0],2)),('down','up')[x>0])})for t,v in g.items()],s:=sorted((-c,b,a)for a,(b,c)in d.items()),[(*c,b,-a)for a,b,c in s if a>=s[:k][-1][0]]][4]

@@ -1,0 +1,1 @@
+get_univ_stat=lambda f,U,Y:len({r[0]for r in read_csv(f)[1:]if r[1]==U!=Y==int(r[3])})

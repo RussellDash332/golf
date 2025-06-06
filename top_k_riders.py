@@ -1,0 +1,1 @@
+top_k_riders=lambda f,k:[d:={},[d.setdefault(r[0],[]).append(eval(f'{d}/{t}j-{v}'))for r,v,_,t,d in read_csv(f)[1:]],e:=sorted((a:=sum(d[r])/len(d[r]),(round(a.real,2),round(a.imag,2),r))[1]for r in d),[(c,-a,-b)for a,b,c in e if(a,b)<=e[:k][-1][:2]]][3]

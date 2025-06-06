@@ -1,0 +1,1 @@
+shoelace=lambda p:(q:=p+p[:1])and sum(a*d-b*c for((a,b),(c,d))in zip(q,q[1:]))/2

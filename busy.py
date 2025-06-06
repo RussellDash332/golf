@@ -1,0 +1,1 @@
+f=busy=lambda x:0if x<2else 1+f((v:=x//3*5+6,v+3,1)[x%3])

@@ -1,0 +1,1 @@
+jaccard_index=lambda a,b:round((sum(map((c:=[*map(lambda x:((x,type(x)),1),a+b)]).count,c))/len(dict(c))-1)/3,2)

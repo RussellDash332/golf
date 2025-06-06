@@ -1,0 +1,1 @@
+monkey=f=lambda b,s:b and b%s+f(b//s*~-s,s)

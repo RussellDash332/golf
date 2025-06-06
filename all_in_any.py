@@ -1,0 +1,1 @@
+all_in_any=lambda a,b:[a:=[*map(k:=lambda x:(x,type(x)),a)],all(i==a[0]and i in map(k,b)for i in a)][1]

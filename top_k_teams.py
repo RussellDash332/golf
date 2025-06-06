@@ -1,0 +1,1 @@
+top_k_teams=lambda f,S,K:[g:={},I:=int,[g[I(y)].setdefault(I(y),[]).append((-I(v),I(p),I(l),u,t))for t,u,s,y,v,p,l in read_csv(f)[1:]if s==S],g.update({y:[g[y].sort(),[(d,e,c,b,-a)for a,b,c,d,e in g[y]if(a,b,c)<=g[y][:K][-1][:3]]][1]for y in g})][0]

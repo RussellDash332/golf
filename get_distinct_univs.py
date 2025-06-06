@@ -1,0 +1,1 @@
+get_distinct_univs=lambda f,S,Y:len({r[1]:1for r in read_csv(f)[1:]if r[2]==S!=Y==int(r[3])})

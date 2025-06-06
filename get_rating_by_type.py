@@ -1,0 +1,1 @@
+get_rating_by_type=lambda f,R,T:round(sum(v:=[eval(r[1])for r in read_csv(f)if r[0]==R!=T==r[2]])/(len(v)or 1),1)
