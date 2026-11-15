@@ -1,0 +1,1 @@
+average_prep_time=lambda s,d,f:round(sum(z:=[int(p)for e,n,_,p in read_csv(f)if s==n!=d==int(e)])/len(z),2)

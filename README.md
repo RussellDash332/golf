@@ -5,61 +5,65 @@ Dumping place for codes I golfed. Sometimes I need eye therapy so.
 ## WC for nerds
 
 ```
- 103 all_in_any.py
- 130 area.py      
-  38 bananas.py
-  89 beside_frac.py
- 166 bmicat_female_age.py
-  57 busy.py
- 376 cca_points.py
- 202 cheapest_towns.py
-  63 check.py
- 423 covid.py
- 370 election.py
- 102 encrypt.py
-  33 fh1.py
-  86 fh2.py
-  85 fh3.py
- 164 find_increase.py
-  92 find_m.py
- 158 flatten_dictionary.py
- 108 get_antiques.py
-  93 get_distinct_univs.py
- 113 get_rating_by_type.py
-  86 get_univ_stat.py
-  85 get_video_id.py
- 103 is_special_string.py
- 112 jaccard_index.py
-  64 longest_stretch.py
-  79 make_palindrome_iterative.py
-  64 make_palindrome_recursive.py
-  32 matchstick.py
- 136 max_daily_change.py
- 120 merge_intervals.py
-  43 monkey.py
- 907 nft.py
- 110 num_plays.py
-  72 num_subscribers.py
- 366 product.py
- 227 results.py
- 185 sales_stats.py
- 630 satellites.py
-  94 scales.py
- 156 selectgroup.py
-  80 shoelace.py
-  47 snowflake.py
-  51 soda.py
- 238 top_K_disproportionate_courses.py
- 222 top_k_channels.py
- 329 top_k_monthly_change.py
- 230 top_k_neighbourhoods.py
- 254 top_k_riders.py
- 249 top_k_teams.py
-  82 total_votes.py
- 204 town_height_ranks.py
- 132 triangle_rune.py
- 254 variance_glucose_statistic.py
- 160 year_of_max_graduates.py
+  103 all_in_any.py
+  130 area.py
+  107 average_prep_time.py
+   38 bananas.py
+   89 beside_frac.py
+  166 bmicat_female_age.py
+   57 busy.py
+  376 cca_points.py
+  202 cheapest_towns.py
+   63 check.py
+  423 covid.py
+  370 election.py
+  102 encrypt.py
+   33 fh1.py
+   86 fh2.py
+   85 fh3.py
+  164 find_increase.py
+   92 find_m.py
+  158 flatten_dictionary.py
+  108 get_antiques.py
+   93 get_distinct_univs.py
+  113 get_rating_by_type.py
+   86 get_univ_stat.py
+   85 get_video_id.py
+  103 is_special_string.py
+  112 jaccard_index.py
+   64 longest_stretch.py
+   79 make_palindrome_iterative.py
+   64 make_palindrome_recursive.py
+   32 matchstick.py
+  136 max_daily_change.py
+  120 merge_intervals.py
+   43 monkey.py
+  907 nft.py
+  110 num_plays.py
+   72 num_subscribers.py
+  410 pokemon_gym.py
+   94 portmanteau.py
+  366 product.py
+  227 results.py
+  185 sales_stats.py
+  630 satellites.py
+   94 scales.py
+  156 selectgroup.py
+   80 shoelace.py
+   47 snowflake.py
+   51 soda.py
+  238 top_K_disproportionate_courses.py
+  222 top_k_channels.py
+  197 top_k_days.py
+  329 top_k_monthly_change.py
+  230 top_k_neighbourhoods.py
+  254 top_k_riders.py
+  249 top_k_teams.py
+   82 total_votes.py
+  204 town_height_ranks.py
+  132 triangle_rune.py
+  254 variance_glucose_statistic.py
+  160 year_of_max_graduates.py
 ```
 
 ## MD5 sum for nerds
@@ -67,6 +71,7 @@ Dumping place for codes I golfed. Sometimes I need eye therapy so.
 ```
 5a8bd5ad97d6551c9285156d7602b1bc  all_in_any.py
 57ca6e2462b72902eb00a29e5ba7af9c  area.py
+a286d9d157001c34671db587e079fcc2  average_prep_time.py
 6e88b3d9e30873a70d4a15eca3af37cc  bananas.py
 85218e8f5681647eefcf0594d1fac920  beside_frac.py
 bacef16924daa7a1a4719b0be0ded7cd  bmicat_female_age.py
@@ -100,6 +105,8 @@ c5169fca801a3c7e2ebb9f59c953f68d  monkey.py
 fd97fa821caa64aea9016f4da9004bba  nft.py
 c69cfa3db2a09877e4f253e60ed176f4  num_plays.py
 d25c5dbdd5ae6772c0876ce21f65d27b  num_subscribers.py
+eca8d9d00832f5448ca5ea785c9d8c1c  pokemon_gym.py
+1b6b37428fef8a8adb5d10d26b8ac4af  portmanteau.py
 6d50c1f6285b1a4b7cf9121d5e5b8863  product.py
 b8631c9cb17f65da8ea4282133421d4c  results.py
 bdbc2195e07dea58215fa6ca043a0290  sales_stats.py
@@ -111,6 +118,7 @@ c17ef64f60ca102c350b603ba3f1635b  snowflake.py
 882e9c6b1d7ccdda7f16530d3f05fe10  soda.py
 9700bb37b52718e1e8850956efbbc73e  top_K_disproportionate_courses.py
 dcf7be6959d7ac22abf61f177a3db915  top_k_channels.py
+937529348823a19b081309c98bf7876d  top_k_days.py
 20e717cbb0413f6d3b798c79968da4d4  top_k_monthly_change.py
 72aac607e3dc4abe07c3e27e93bca39f  top_k_neighbourhoods.py
 eb21d7c2fe388f256c50bf0888317af3  top_k_riders.py

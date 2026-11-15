@@ -1,0 +1,1 @@
+top_k_days=lambda k,s,d,f:[g:={},[g.update({e:g.get(e,0)+int(p)})for e,n,p,_ in read_csv(f)if s==n!=d>=int(e)],s:=sorted((-b,int(a))for a,b in g.items()),[(a,-b)for b,a in s if b<=s[:k][-1][0]]][3]

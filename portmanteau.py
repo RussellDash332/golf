@@ -1,0 +1,1 @@
+portmanteau=lambda a,b:a*(b in a)or[a[:k]+b for k in range(len(a)+1)if b.startswith(a[k:])][0]
